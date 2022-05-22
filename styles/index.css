@@ -1,0 +1,107 @@
+html, body {
+    height: 100%;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.default-text {
+    color:rebeccapurple;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input-with-label {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.label-text {
+    color: lightseagreen;
+    font-weight: normal;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    align-self: center;
+}
+
+.input-template-1 {
+    border: solid 1px greenyellow;
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.input-template-1:hover {
+    border: solid 1px rgb(253, 249, 0);
+}
+
+.input-template-1:focus {
+    border: solid 1px rgb(253, 249, 0);
+    outline: none;
+}
+
+.button-template-1 {
+    background: #00FF0F;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
+.button-text {
+    font-weight: normal;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.column-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.raw-block {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 1px solid blueviolet;
+    padding: 10px;
+}
+
+.text-title {
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-template-1 {
+    color:coral;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hide {
+    display: none;
+}
+
+.error-text {
+    color:red;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
